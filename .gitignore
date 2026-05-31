@@ -1,0 +1,29 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# PyInstaller 输出
+build/
+dist/
+*.spec
+
+# 系统文件
+Thumbs.db
+.DS_Store
+*.log
+
+# 数据库（用户本地数据，不应提交）
+*.db
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 工作目录（AI 辅助开发记录）
+.workbuddy/

@@ -1,0 +1,9 @@
+# 报账系统依赖文件
+# 本项目所有依赖均为 Python 3 标准库，无需额外安装第三方包
+#
+# 标准库清单：
+# - tkinter          (GUI 界面)
+# - sqlite3          (本地数据库)
+# - zipfile          (附件压缩)
+# - csv              (数据导出)
+# - os, re, subprocess, subprocess  (系统支持)
