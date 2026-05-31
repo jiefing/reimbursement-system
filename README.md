@@ -1,6 +1,6 @@
 # SCAU-实验室报账系统 🧾
 
-> 华南农业大学报销管理工具
+> 华南农业大学报销单记录工具
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![GUI](https://img.shields.io/badge/GUI-tkinter-green)
