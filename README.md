@@ -1,6 +1,6 @@
-# 实验室报账系统 🧾
+# SCAU-实验室报账系统 🧾
 
-> 高校实验室报销管理工具
+> 华南农业大学报销管理工具
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![GUI](https://img.shields.io/badge/GUI-tkinter-green)
@@ -11,9 +11,11 @@
 
 ## 📖 项目简介
 
-**报账系统** 是一个专为高校实验室设计的报销管理工具，支持日常报销单和差旅费报销单的智能解析、发票管理、人员管理、数据入库与导出等功能。
+**报账系统** 是一个专为华南农业大学报账小助理设计的报销管理工具，方便在报账后进行数据的录入工作，支持日常报销单和差旅费报销单的智能解析、发票管理、人员管理、数据入库与导出等功能。
 
-由实验室成员开发维护，旨在提升实验室经费报销效率，减少人工录入错误。
+本软件的开发，旨在提升实验室经费报销效率，减少人工录入错误。
+
+由于本人结束了报账工作，所以将此软件开源，希望能帮到同学们进行日常报账工作。
 
 ---
 
@@ -68,41 +70,7 @@
 
 ---
 
-## 🚀 快速开始
 
-### 环境要求
-
-- Python 3.10 或更高版本
-- Windows / macOS / Linux
-
-> ⚠️ 注意：本软件在 Windows 10/11 下开发和测试，其他平台可能需调整 UI 适配。
-
-### 1. 克隆 / 下载项目
-
-```bash
-git clone https://github.com/your-username/reimbursement-system.git
-cd reimbursement-system
-```
-
-或直接下载 [Release 页面](https://github.com/your-username/reimbursement-system/releases) 中的压缩包。
-
-### 2. 运行程序
-
-```bash
-cd src
-python main.py
-```
-
-### 3. 打包为 EXE（可选）
-
-```bash
-pip install pyinstaller
-pyinstaller --onefile --noconsole --name 报账系统 --icon=../logo.ico main.py
-```
-
-打包后的 exe 位于 `dist/报账系统.exe`。
-
----
 
 ## 📂 项目结构
 
@@ -183,6 +151,45 @@ reimbursement-system/
 
 ---
 
+
+## 🚀 想自己打包？
+
+### 环境要求
+
+- Python 3.10 或更高版本
+- Windows / macOS / Linux
+
+> ⚠️ 注意：本软件在 Windows 10/11 下开发和测试，其他平台可能需调整 UI 适配。
+
+### 1. 克隆 / 下载项目
+
+```bash
+git clone https://github.com/your-username/reimbursement-system.git
+cd reimbursement-system
+```
+
+或直接下载 [Release 页面](https://github.com/your-username/reimbursement-system/releases) 中的压缩包。
+
+### 2. 运行程序
+
+```bash
+cd src
+python main.py
+```
+
+### 3. 打包为 EXE（可选）
+
+```bash
+pip install pyinstaller
+pyinstaller --onefile --noconsole --name 报账系统 --icon=../logo.ico main.py
+```
+
+打包后的 exe 位于 `dist/报账系统.exe`。
+
+---
+
+
+
 ## 📄 许可证
 
 本项目基于 MIT License 开源，详见 [LICENSE](LICENSE) 文件。
@@ -192,7 +199,7 @@ reimbursement-system/
 ## 📬 联系方式
 
 - 欢迎在 GitHub Issues 中提交反馈
-- 邮箱：user@example.com
+- 邮箱：jtfing@Outlook.com
 
 ---
 
